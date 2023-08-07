@@ -385,3 +385,49 @@ color: var(--light-blue);
             color: var(--font-black);
             border: 3px solid var(--links);
         }
+
+ /*------------Section6----------------*/
+ #section6 {
+    background: var(--font-light);
+ }
+ #section6 .sec6 h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44.6px;
+    color:var(--font-black)
+
+ }
+ #section6 .sec6 h6{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    color:var(--light-blue)
+
+ }
+ #section6 .sec6 .fp{
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 19.6px;
+    color: var(--light-blue);
+ }
+ #section6 .sec6 .container{
+    padding: 100px 0px;
+ }
+ #section6 .sec6 .stars{
+    display: flex;
+ }
+ #section6 .sec6 .stars i{
+    font-size: 35px;
+    margin:6px 4px;
+    color: var(--links);
+ }
+ #section6 .sec6 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.4px;
+ }
+ #section6 .sec6 .quotes{
+ border-left: 5px solid var(--links);
+
+
+ }
