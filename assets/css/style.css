@@ -8,6 +8,9 @@
 p{
     margin-bottom: 0;
 }
+a{
+    color: var(--font-light);
+}
 /*--------Section 1 -------*/
 #hero-section{
     height: auto;
@@ -404,14 +407,14 @@ color: var(--light-blue);
     color:var(--light-blue)
 
  }
- #section6 .sec6 .fp{
+ #section6 .sec6 .pf{
     font-size: 14px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 19.6px;
     color: var(--light-blue);
  }
  #section6 .sec6 .container{
-    padding: 100px 0px;
+    padding: 100px 0px 0px 0px;
  }
  #section6 .sec6 .stars{
     display: flex;
@@ -427,7 +430,147 @@ color: var(--light-blue);
     line-height: 28.4px;
  }
  #section6 .sec6 .quotes{
- border-left: 5px solid var(--links);
+    position: relative;
+ }
+ #section6 .sec6 .quotes::before{
+content: '';
+width: 6px;
+height: 120px;
+background: var(--links);
+position: absolute;
+left: 0px;
+top: 0px;
+margin-left:10px;
+ }
+ #section6 .sec6 .mylink {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 0px;
+ }
+ #section6 .sec6 .mylink h4{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    font-style: italic;
+ }
+ /*-------Footer------*/
+ #footer .myfooter{
+    background: var(--font-black);
+    padding-top: 100px;
+ }
 
+#footer .myfooter .myp{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+    color: var(--light-blue);
+ }
+ #footer .myfooter h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44.6px;
+    color:var(--font-light);
+    
 
  }
+ #footer .myfooter span{
+    position: relative;
+    z-index: 1111;
+ }
+ #footer .myfooter span::before{
+    content: '';
+    width: 100%;
+    height: 14px;
+    background: var(--light-blue);
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    z-index: -1;
+}
+#footer .myfooter p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: var(--font-light);
+ }
+ #footer .myfooter .right-section{
+    padding-left: 100px;
+ }
+ #footer .myfooter .contact{
+    margin-bottom: 100px;
+ }
+ #footer .myfooter .iconbox{
+    padding: 15px;
+    width: fit-content;
+    background:var(--links);
+    border-radius: 5px;
+}
+#footer .myfooter .iconbox i{
+    color: var(--font-black);
+    width: 100%;
+    font-size: 30px;
+}
+#footer .myfooter .box p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+
+}
+#footer .myfooter form{
+    border: 2px solid var(--font-light);
+    padding: 20px;
+    border-radius: 3px;
+}
+#footer .myfooter .form-check p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+}
+#footer .myfooter input{
+    background: #9F9F9F;
+}
+#footer .myfooter textarea{
+    background: #9F9F9F;
+}
+#footer .myfooter input::placeholder{
+    color: var(--font-light);
+}
+#footer .myfooter textarea::placeholder{
+    color: var(--font-light);
+}
+
+#footer .myfooter button{
+    border: 3px solid var(--links);
+    background: transparent;
+    color: var(--font-light);
+    border-radius: 0;
+    padding: 5px 40px;
+    margin:20px 0px;
+    font-weight: 700;
+}
+#footer .myfooter button:hover{
+    background: var(--links);
+    color: var(--font-black);
+    border: 3px solid var(--links);
+}
+#footer .myfooter .hr{
+    color: var(--light-blue);
+    height: 3px;
+    background: var(--light-blue);
+    margin-top: 80px;
+    z-index: 1111;
+}
+
+#footer .myfooter .second-area h6{
+    color: var(--links);
+    font-size: 24px;
+    line-height: 33.6px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+#footer .myfooter .second-area ul li{
+    list-style-type: none;
+    color: var(--font-light);
+}
+ /*---x----Footer---x---*/

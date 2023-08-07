@@ -100,4 +100,8 @@
     #section5 .sec5 .design2 img{
         display: none;
     }
+    #footer .myfooter .right-section {
+        padding-top: 30px;
+        padding-left: 18px;
+    }
 }
