@@ -1,0 +1,103 @@
+/* Media query for section1 */
+@media only screen and (max-width:992px) {
+
+    #section1 .container,
+    .container-md,
+    .container-sm {
+        max-width: 750px;
+    }
+    .navbar-dark .navbar-nav .nav-link:focus,
+    .navbar-dark .navbar-nav .nav-link {
+        margin-right: 19px;
+    }
+    /*--section2---*/
+    #section2 .right-sec2 p {
+        color: var(--font-light);
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 20.4px;
+    }
+    /*---section3--*/
+    #section3 .right-sec3 {
+        padding: 70px 40px 40px 40px;
+    }
+    #section5 .sec5 .right-sec {
+        padding: 70px 25px 70px 36px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .main-headings h1 {
+        font-size: 41px;
+        line-height: 46.8px;
+    }
+
+    /*--x-Section1--x-*/
+    /*---Section2---*/
+    #section2 .right-sec2 {
+        margin-left: 0px;
+        margin-right: 1px;
+        padding: 11px;
+    }
+
+    #section2 .right-sec2 p {
+        margin-bottom: 10px;
+        color: var(--font-light);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+    }
+
+    /*---section3---*/
+    #section3 .sec3 .cube-img img {
+        display: none;
+    }
+    #section3 .right-sec3 {
+        padding: 70px 40px 40px 40px;
+    }
+    /*---section3--x-*/
+    #section4 .sec4 .box {
+        justify-content: end;
+    }
+    #section5 .sec5 .design2 img{
+        display: none;
+    }
+}
+@media only screen and (max-width:576px) {
+
+    /*--Section1--*/
+    .main-headings h1 {
+        font-size: 41px;
+        line-height: 46.8px;
+    }
+    /*--x-Section1--x-*/
+    /*---Section2---*/
+    #section2 .right-sec2 {
+        margin-left: 0px;
+        margin-right: 1px;
+        padding: 11px;
+    }
+    #section2 .right-sec2 p{
+        margin-bottom: 10px;
+        color: var(--font-light);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+    }
+    /*--x-Section2--x-*/
+    #section3 .sec3 .cube-img img {
+        display: none;
+    }
+    #section3 .right-sec3 {
+        padding: 70px 40px 40px 40px;
+    }
+    /*--------section3-----x----*/
+    #section4 .sec4 .box {
+        justify-content: end;
+    }
+
+
+    #section5 .sec5 .design2 img{
+        display: none;
+    }
+}
