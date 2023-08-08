@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="https://kit.fontawesome.com/d94e9b7d2c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,7 +29,7 @@
                                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                                     <ul class="navbar-nav myheader ms-auto">
                                         <li class="nav-item ">
-                                            <a class="nav-link " href="#hero-section">Home</a>
+                                            <a class="nav-link active " href="#hero-section">Home</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#section2">Service</a>
@@ -305,120 +302,145 @@
     </section>
     <!--x--Section#6--x--->
     <!----Footer----->
-<footer id="footer">
-    <div class="container-fluid myfooter">
-        <div class="container ">
-            <div class="row">
-                <div class="col-md-12 col-lg-8">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="myp">KONTAKT</p>
-                            <h3><span>Schreiben</span> Sie mich gerne an.</h3>
-                        </div>
-                        <div class="row pt-3 contact">
-                            <div class="col-md-6">
-                                <p>Am einfachsten Sie füllen das Kontaktformular aus und ich kann Ihnen schnell persönlich antworten. Natürlich können Sie mir auch eine E-mail schreiben. Ich freue mich, wenn ich Ihnen helfen kann. </p>
+    <footer id="footer">
+        <div class="container-fluid myfooter">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-md-12 col-lg-8">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="myp">KONTAKT</p>
+                                <h3><span>Schreiben</span> Sie mich gerne an.</h3>
                             </div>
-                            <div class="col-md-6 right-section">
-                                <p>Daniel McDonald</p>
-                                <p><a href="tel:01731063825">Telefon: 01731063825</a></p>
-                                    
-                                <p><a href="mailto:support@danielmcdonald.de">E-mail: support@danielmcdonald.de</a></p>
+                            <div class="row pt-3 contact">
+                                <div class="col-md-6">
+                                    <p>Am einfachsten Sie füllen das Kontaktformular aus und ich kann Ihnen schnell
+                                        persönlich antworten. Natürlich können Sie mir auch eine E-mail schreiben. Ich
+                                        freue mich, wenn ich Ihnen helfen kann. </p>
+                                </div>
+                                <div class="col-md-6 right-section">
+                                    <p>Daniel McDonald</p>
+                                    <p><a href="tel:01731063825">Telefon: 01731063825</a></p>
+
+                                    <p><a href="mailto:support@danielmcdonald.de">E-mail: support@danielmcdonald.de</a>
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row mb-5">
-                            <div class="col-md-6 mb-4">
-                                <div class="row ">
-                                    <div class="col-3 col-md-3 box">
-                                        <div class="iconbox">
-                                            <i class="fa-regular fa-envelope"></i>
+                            <div class="row mb-5">
+                                <div class="col-md-6 mb-4">
+                                    <div class="row ">
+                                        <div class="col-3 col-md-3 box">
+                                            <div class="iconbox">
+                                                <i class="fa-regular fa-envelope"></i>
+                                            </div>
                                         </div>
-                                       
-                                    </div>
-                                    <div class="col-9 col-md-9 p-0">
-                                        <p>Sie schreiben was ich für Sie tun kann und wie schnell Sie die Leistung brauchen.</p>
+                                        <div class="col-9 col-md-9 p-0">
+                                            <p>Sie schreiben was ich für Sie tun kann und wie schnell Sie die Leistung
+                                                brauchen.</p>
+                                        </div>
                                     </div>
                                 </div>
-
-                            </div>
-                            <div class="col-md-6">
-                                <div class="row ">
-                                    <div class="col-3 col-md-3 box">
-                                        <div class="iconbox">
-                                            <i class="fa-solid fa-bullseye"></i>
+                                <div class="col-md-6">
+                                    <div class="row ps-md-4">
+                                        <div class="col-3 col-md-3 box">
+                                            <div class="iconbox">
+                                                <i class="fa-solid fa-bullseye"></i>
+                                            </div>
                                         </div>
-                                       
-                                    </div>
-                                    <div class="col-9 col-md-9 ">
-                                        <p>Sie erhalten von mir ein unverbindliches Angebot mit fairen Preisen.</p>
+                                        <div class="col-9 col-md-9 p-0 ">
+                                            <p>Sie erhalten von mir ein unverbindliches Angebot mit fairen Preisen.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-12 col-lg-4">
+                        <form action="">
+                            <div class="mb-3 mt-3">
 
+                                <input type="email" class="form-control" id="email" placeholder="Deine Email"
+                                    name="email">
+                            </div>
+                            <div class="mb-3 mt-3">
+                                <textarea class="form-control" rows="3" id="comment" name="text"
+                                    placeholder="Deine Nachrricht"></textarea>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input type="radio" class="form-check-input" id="radio2" name="optradio"
+                                    value="option2">
+                                <p>Ich stimme zu, dass meine Daten aus dem Kontaktformular zur Beantwortung meiner
+                                    Anfrage erhoben und verarbeitet werden. Detaillierte Informationen zum Umgang mit
+                                    Nutzerdaten finden Sie in unseren Datenschutzhinweisen.</p>
+                            </div>
 
+                            <button type="submit" class="btn btn-primary">Absenden</button>
+                        </form>
+                    </div>
                 </div>
-                <div class="col-md-12 col-lg-4">
-                    <form action="">
-                        <div class="mb-3 mt-3">
-                          
-                          <input type="email" class="form-control" id="email" placeholder="Deine Email" name="email">
-                        </div>
-                        <div class="mb-3 mt-3">
-                            <textarea class="form-control" rows="3" id="comment" name="text" placeholder="Deine Nachrricht"></textarea>
-                          </div>
-                          <div class="form-check mb-3">
-                            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
-                            <p>Ich stimme zu, dass meine Daten aus dem Kontaktformular zur Beantwortung meiner Anfrage erhoben und verarbeitet werden. Detaillierte Informationen zum Umgang mit Nutzerdaten finden Sie in unseren Datenschutzhinweisen.</p>
-                          </div>
-                       
-                        <button type="submit" class="btn btn-primary">Absenden</button>
-                      </form>
-                </div>
-            </div>
-            <div class="hr"></div>
-            <div class="row py-5 ">
-                <div class="col-md-6 second-area">
-                    <h6>Services</h6>
-                    <ul class="p-0">
+                <div class="hr"></div>
+                <div class="row py-5 ">
+                    <div class="col-md-6 second-area">
+                        <h6>Services</h6>
+                        <ul class="p-0">
                             <li>Computerservices</li>
                             <li>Antivirusprogramme</li>
                             <li>Netzwerke aufsetzen</li>
                             <li> Pc Installation</li>
                             <li>Beschleunigen von vorhandenen Lösungen</li>
                             <li>Individuelle Lösungen</li>
-                            
-                           
-                            
-                    </ul>
-                </div>
-                <div class="col-md-6 second-area">
-                    <h6>Partner </h6>
-                    <ul class="p-0">
+                        </ul>
+                    </div>
+                    <div class="col-md-6 second-area">
+                        <h6>Partner </h6>
+                        <ul class="p-0">
                             <li>Daka Media</li>
-                               <li>Video-Stream-Hosting</li>
-                    
-                            
-                            
-                           
-                            
-                    </ul>
+                            <li>Video-Stream-Hosting</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="row pb-3">
-                <div class="col-md-12 text-center">
-                    <p>© Daniel Mcdonald 2021 | Impressum | Datenschutz</p>
+                <div class="row pb-3">
+                    <div class="col-md-12 text-center">
+                        <p>© Daniel Mcdonald 2021 | Impressum | Datenschutz</p>
+                    </div>
                 </div>
             </div>
         </div>
-        
-    </div>
-</footer>
+    </footer>
     <!--x--Footer--x--->
+    <!-----PreLoader----->
+    <div class="preloader">
+        <di class="pre-logos">
+            <img src="assets/images/Loader_Logo.png" alt="preloader-logo">
+            <div class="loader">
+                <div class="loadmore"></div>
+            </div>
+        </di>
 
+    </div>
+    <!--x---PreLoader---x-->
+    <!-------Scrolltotop------>
+    <div class="scroll-to-top" id="scrollToTopBtn">
+        <span><i class="fa-solid fa-angle-up"></i></span>
+    </div>
+    <!----x---Scrolltotop---x--->
+    <!-----Header-slide-down-->
+    <!-- <div class="sec-header">
+        <img src="assets/images/Logo_NAV.png" alt="">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Über mich</a></li>
+            <li><a href="">Kontakt</a></li>
 
-
+        </ul>
+    </div> -->
+    <!-----Header-slide-down-->
+    <!-- javascript-files -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/d94e9b7d2c.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
