@@ -638,12 +638,13 @@ margin-left:10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 80px;
+    padding: 10px 60px;
     position: fixed;
     top: -90px;
     left: 0;
     width: 100%;
     z-index: 999999;
+    
  }
  .sec-header img{
     width: 157px;
@@ -660,4 +661,6 @@ margin-left:10px;
     color: var(--font-light) !important;
     text-decoration: none;
  } 
-
+ .sec-header .active{
+    color: var(--links);
+ }

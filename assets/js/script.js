@@ -21,13 +21,13 @@ $(document).ready(function() {
             return false;
         });
 
-        // $(window).scroll(function() {
-        //     if ($(this).scrollTop() > 170) {
-        //         $('.sec-header').animate({top:'0'}).slideDown('slow');
-        //     }else {
-        //         $('.sec-header').animate({top:'-90'}).slideDown('slow');
-        //     }
-        // });
+        $(window).scroll(function() {
+            if ($(this).scrollTop() >= 170) {
+                $('.sec-header').css({top:'0'}).slideDown('slow');
+            }else {
+                $('.sec-header').css({top:'-90px'}).slideUp('slow');
+            }
+        });
 
     
 });

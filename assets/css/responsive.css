@@ -63,7 +63,7 @@
         display: none;
     }
     .sec-header{
-        display: none;
+        visibility: hidden;
     }
 }
 @media only screen and (max-width:576px) {
@@ -107,5 +107,7 @@
         padding-top: 30px;
         padding-left: 18px;
     }
-    
+    .sec-header{
+        visibility: hidden;
+    }
 }
